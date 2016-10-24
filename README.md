@@ -23,10 +23,13 @@ Part 2 - Raspberry
  
  Here is a sample output of the OBIS message sent by the Energy Meter:
  
- cat /dev/ttyUSB0
-/LGZ5ZMR120AC.K75
+ cat /dev/ttyUSB0<br>
+/LGZ5ZMR120AC.K75<br>
+
 F.F.0(00000000)
+
 1.8.1(000004.079*kWh)
+
 1.8.2(036884.085*kWh)
 2.8.0(000000.000*kWh)
 0.0.0(
