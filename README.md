@@ -20,4 +20,13 @@ Part 2 - Raspberry
   The USB IR interface should be detected as a tty device.
   Sadly, the vzlogger daemon (part of the Volkszaehler package, normally to be installed on the raspberry), which should normally read the OBIS data from the Energy Meter does not understand the Landis & Gyr OBIS Dialect, so i had the write my own reader.
   It's the file called readlandis.sh i this repo, the bash file also contains descriptive comments.
-  
+ 
+ Here is a sample output of the OBIS message sent by the Energy Meter:
+ 
+ cat /dev/ttyUSB0
+/LGZ5ZMR120AC.K75
+F.F.0(00000000)
+1.8.1(000004.079*kWh)
+1.8.2(036884.085*kWh)
+2.8.0(000000.000*kWh)
+0.0.0(
