@@ -9,7 +9,7 @@ You need:
     http://shop.weidmann-elektronik.de/index.php?page=product&info=24
   
   3) Volkszaehler software (open source)
-    http://www.volkszähler.org/
+    http://www.volkszaehler.org/
 
 Part 1 - Volkszaehler: 
 
